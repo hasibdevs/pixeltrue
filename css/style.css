@@ -88,11 +88,14 @@ span{
 }
 .reliable-inner{
     padding: 3rem 0;
-    background: #161842;
     border-radius: 20px;
-    box-shadow: 1px 1px 0px #0ad3c8, 1px 1px 0px #0cede2;
     transition: all 0.3s;
     margin: 10px;
+    background: rgba( 22, 24, 66, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .reliable-inner:hover{
     box-shadow: 1px 2px 15px 0px #0ad3c89e;
@@ -160,12 +163,15 @@ h3{
 }
 .work-inner{
     padding: 15px;
-    background: #161842;
-    box-shadow: 1px 1px 0px #0ad3c8, 1px 1px 0px #0cede2;
     border-radius: 20px;
     width: 59rem;
     margin: 15px auto;
     transition: all 0.3s;
+    background: rgba( 22, 24, 66, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .work-inner:hover{
     box-shadow: 1px 1px 12px 0px #0cede2;
@@ -184,6 +190,7 @@ iframe{
     width: 992px;
     height: 512px;
 }
+
 /* =============Membership============== */
 .Membership{
     padding: 60px 0;
@@ -198,9 +205,12 @@ iframe{
     margin: 10px;
     border-radius: 20px;
     color: white;
-    background: #161842;
-    box-shadow: 1px 1px 0px #0ad3c8, 1px 1px 0px #0cede2;
     transition: all 0.3s;
+    background: rgba( 22, 24, 66, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .member-inner:hover{
     box-shadow: 1px 1px 12px 0px #0cede2;
@@ -315,30 +325,3 @@ footer .notify-box .submit-btn{
     font-size: 15px;
     line-height: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
